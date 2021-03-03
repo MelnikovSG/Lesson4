@@ -1,0 +1,7 @@
+D:\3D\Lesson 4\Lesson 4.1\Lesson 4.1\Lesson 4.1\bin\Debug\Lesson 4.1.exe.config
+D:\3D\Lesson 4\Lesson 4.1\Lesson 4.1\Lesson 4.1\bin\Debug\Lesson 4.1.exe
+D:\3D\Lesson 4\Lesson 4.1\Lesson 4.1\Lesson 4.1\bin\Debug\Lesson 4.1.pdb
+D:\3D\Lesson 4\Lesson 4.1\Lesson 4.1\Lesson 4.1\obj\Debug\Lesson 4.1.csprojAssemblyReference.cache
+D:\3D\Lesson 4\Lesson 4.1\Lesson 4.1\Lesson 4.1\obj\Debug\Lesson 4.1.csproj.CoreCompileInputs.cache
+D:\3D\Lesson 4\Lesson 4.1\Lesson 4.1\Lesson 4.1\obj\Debug\Lesson 4.1.exe
+D:\3D\Lesson 4\Lesson 4.1\Lesson 4.1\Lesson 4.1\obj\Debug\Lesson 4.1.pdb
