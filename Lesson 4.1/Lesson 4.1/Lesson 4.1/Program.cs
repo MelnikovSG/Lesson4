@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
+
 
 namespace Lesson_4._1
 {
@@ -11,23 +8,8 @@ namespace Lesson_4._1
         public static void Main(string[] args)
         {
 
-            Console.WriteLine("Здравствуйте вас приветствует математическая программа");
+            Console.WriteLine("Здравствуйте. Вас приветствует математическая программа");
             Solution.EnterNumber();
-
-            
-
-            bool isNum = int.TryParse(Solution.EnterNumber(value), out number);
-
-            if (isNum)
-            {
-                Solution.Sol();
-                
-            } else
-            {
-                Solution.EnterNumber();
-                return;
-            }
-            
             
         }
     
@@ -36,32 +18,42 @@ namespace Lesson_4._1
             public static void EnterNumber()
             {
 
-                Console.WriteLine("пожалуйста введите число: ");
-                string value = Console.ReadLine();
-                int number;
+                    Console.WriteLine("пожалуйста введите число: ");
+                    string value = Console.ReadLine();
+                    int number;
+
+                    bool isNum = int.TryParse(value, out number);
+
+                    if (isNum)
+                        {
+                            Sol(number);
+
+                        } else
+                            {
+                                Console.WriteLine("Вы ошиблись!");
+                                EnterNumber();
+                            }
 
             }
 
-            public static void Sol()
+            public static void Sol(int num)
             {
 
-                Program prog = new Program();
+                int num1 = 1, num2 = 0, num3 = 0;
                 
-                int c1 = 1; int c2 = 0;
-                int c3 = 0;
-                for (int i = 1; i <= prog.; i++)
+                for (int i = 1; i <= num; i++)
                 {
-                    c1 = c1 * i;
-                    c2 = c2 + i;
+                    num1 *= i;
+                    num2 += i;
                     if (i % 2 == 0)
                     {
-                        c3 = i;
+                        num3 = i;
                     }
                 }
 
-                Console.WriteLine("Факториал равет " + Solution().c1); Console.WriteLine("Сума от 1 до N равна " + c2);
+                Console.WriteLine ($"Факториал равен {num1} Сумма от 1 до N равна {num2}");
 
-                Console.WriteLine("максимальное четное число меньше N равно" + c3);
+                Console.WriteLine ($"Максимальное четное число меньше N равно {num3}");
 
                 Console.ReadLine();
             }
